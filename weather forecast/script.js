@@ -1,4 +1,4 @@
-const apiKey = 'fdcf6144e3c4c896deadd362a19db2bb';
+const apiKey = '';
 function getWeatherData(location) {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
   return fetch(url)
